@@ -12,6 +12,7 @@ export class BrandsService {
         return brand
     }
 
+
     async getAllBrands(){
         const brands = await this.brandRepository.findAll()
         return brands
